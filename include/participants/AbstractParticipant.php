@@ -15,7 +15,7 @@ abstract class AbstractParticipant
 
     public function __construct($id)
     {
-
+        $this->id = $id;
     }
 
     /**
@@ -27,11 +27,12 @@ abstract class AbstractParticipant
     }
 
     /**
-     * @param \TicTacToeGame $currentGame
+     * @return mixed
      */
-    protected function setCurrentGame($currentGame)
+    public function getId()
     {
-        $this->currentGame = $currentGame;
+        return $this->id;
     }
+
 
 }

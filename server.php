@@ -22,14 +22,27 @@ if (isset($_SESSION['currentGame'])) {
     $player->createNewGame();
 }
 
+
 if (count($_POST)) {
+
     if (!isset($_POST['x']) || !isset($_POST['y'])) {
         throw new RuntimeException('Point is missing');
     }
 
+    try {
+        $player->getCurrentGame()->markPoint($_POST['x'], $_POST['y']);
+    } catch (RuntimeException $e) {
+        die(json_encode(array('error' => $e->getMessage())));
+    }
 }
 
 //Save current game to session
 $_SESSION['currentGame'] = $player->getCurrentGame()->toArray();
 
 echo json_encode($player->getCurrentGame()->toArray()) . PHP_EOL;
+
+
+//Create new game in case it is finished
+if ($player->getCurrentGame()->isFinished()) {
+    session_destroy();
+}

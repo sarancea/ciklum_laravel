@@ -24,8 +24,10 @@ class Player extends AbstractParticipant
      */
     public function createNewGame()
     {
-        $this->currentGame = new \TicTacToeGame(3, 3);
+        $this->currentGame = new \TicTacToeGame();
         $this->currentGame->setOpponent(new Computer(time() . '_computer'));
         $this->currentGame->setPlayerId($this->id);
+        $this->currentGame->getOpponent()->setCurrentGame($this->currentGame);
+
     }
 }

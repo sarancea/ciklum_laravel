@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+#matrix-table {
+    margin-top: 200px;
+    height: 350px;
+    width: 350px;
+}
+
+#matrix-table td {
+    border: 1px solid;
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#control {
+    margin-top: 100px;
+    width: 100px;
+}
+
+#control button {
+    display: none;
+    width: 100px;
+}

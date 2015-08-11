@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca21df28-0326-4748-b4e7-718c9f158724" name="Default" comment="next step">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/Participants/Player.php" afterPath="$PROJECT_DIR$/include/Participants/Player.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/Participants/Computer.php" afterPath="$PROJECT_DIR$/include/Participants/Computer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/TicTacToeGame.php" afterPath="$PROJECT_DIR$/include/TicTacToeGame.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="8f93a148-10b9-4a52-a509-2d51bc021df2" name="Failed commit: Default" comment="next step" />
@@ -31,7 +27,40 @@
     <favorites_list name="tic-tak-toe" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TicTacToeGame.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/TicTacToeGame.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="280" column="30" selection-start="6374" selection-end="6384" vertical-scroll-proportion="-6.64" vertical-offset="2443" max-vertical-offset="3375">
+              <folding>
+                <element signature="n#gameIsFinishedCheck#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+                <element signature="n#toArray#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+                <element signature="n#getCurrentMatrix#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+                <element signature="n#createCleanMatrix#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/Participants/Player.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="41" selection-start="675" selection-end="675" vertical-scroll-proportion="0.454071" vertical-offset="0" max-vertical-offset="958">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Computer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Participants/Computer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="155" column="6" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-96.875" vertical-offset="0" max-vertical-offset="3675">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -54,13 +83,13 @@
         <option value="$PROJECT_DIR$/include/Participants/AbstractParticipant.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
-        <option value="$PROJECT_DIR$/include/Participants/Player.php" />
         <option value="$PROJECT_DIR$/server.php" />
-        <option value="$PROJECT_DIR$/include/TicTacToeGame.php" />
-        <option value="$PROJECT_DIR$/include/Participants/Computer.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/include/Participants/Computer.php" />
+        <option value="$PROJECT_DIR$/include/TicTacToeGame.php" />
+        <option value="$PROJECT_DIR$/include/Participants/Player.php" />
       </list>
     </option>
   </component>
@@ -124,7 +153,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -141,18 +170,8 @@
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tic-tak-toe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tic-tak-toe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Participants" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,7 +234,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -261,10 +280,7 @@
     <entry file="file://$PROJECT_DIR$/include/Participants/Computer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="735">
-          <folding>
-            <element signature="e#871#1470#0" expanded="false" />
-            <element signature="e#4078#6193#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -272,9 +288,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="113" column="36" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1695" max-vertical-offset="3210">
           <folding>
-            <element signature="n#loadFromArray#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
             <element signature="n#gameIsFinishedCheck#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
             <element signature="n#toArray#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+            <element signature="n#getCurrentMatrix#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+            <element signature="n#createCleanMatrix#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -305,13 +322,6 @@
         <state line="59" column="43" selection-start="2099" selection-end="2099" vertical-scroll-proportion="0.34133613" vertical-offset="558" max-vertical-offset="2970" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/Participants/AbstractParticipant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="426" selection-end="426" vertical-scroll-proportion="0.66333807" vertical-offset="0" max-vertical-offset="701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="3" selection-start="563" selection-end="563" vertical-scroll-proportion="0.23638968" vertical-offset="0" max-vertical-offset="698" />
@@ -324,27 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="947" column="9" selection-start="30405" selection-end="30405" vertical-scroll-proportion="1.5939457" vertical-offset="12678" max-vertical-offset="16530">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/TicTacToeGame.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="29" selection-start="4847" selection-end="4847" vertical-scroll-proportion="0.18030973" vertical-offset="1337" max-vertical-offset="3120">
-          <folding>
-            <element signature="n#loadFromArray#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
-            <element signature="n#gameIsFinishedCheck#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
-            <element signature="n#toArray#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Participants/Computer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="38" selection-end="38" vertical-scroll-proportion="0.06263048" vertical-offset="0" max-vertical-offset="2415">
-          <folding>
-            <element signature="e#871#1470#0" expanded="false" />
-            <element signature="e#4078#6193#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -379,9 +368,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/Participants/AbstractParticipant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="304" selection-end="304" vertical-scroll-proportion="0.36012527" vertical-offset="0" max-vertical-offset="958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Participants/Computer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="6" selection-start="3869" selection-end="3869" vertical-scroll-proportion="-96.875" vertical-offset="0" max-vertical-offset="3675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/TicTacToeGame.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="30" selection-start="6374" selection-end="6384" vertical-scroll-proportion="-6.64" vertical-offset="2443" max-vertical-offset="3375">
+          <folding>
+            <element signature="n#gameIsFinishedCheck#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+            <element signature="n#toArray#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+            <element signature="n#getCurrentMatrix#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+            <element signature="n#createCleanMatrix#0;n#TicTacToeGame#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/Participants/Player.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="491" selection-end="491" vertical-scroll-proportion="0.4070981" vertical-offset="0" max-vertical-offset="958">
+        <state line="29" column="41" selection-start="675" selection-end="675" vertical-scroll-proportion="0.454071" vertical-offset="0" max-vertical-offset="958">
           <folding />
         </state>
       </provider>

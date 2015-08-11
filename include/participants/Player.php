@@ -27,7 +27,7 @@ class Player extends AbstractParticipant
         $this->currentGame = new \TicTacToeGame();
         $this->currentGame->setOpponent(new Computer(time() . '_computer'));
         $this->currentGame->setPlayerId($this->id);
-        $this->currentGame->getOpponent()->setCurrentGame($this->currentGame);
+        $this->currentGame->getOpponent();
 
     }
 }

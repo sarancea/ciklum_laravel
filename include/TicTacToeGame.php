@@ -80,7 +80,6 @@ class TicTacToeGame
         $gameInstance->currentMatrix = $gameData['currentMatrix'];
         $gameInstance->playerId = $gameData['playerId'];
         $gameInstance->opponent = new \Participants\Computer($gameData['opponentId']);
-        $gameInstance->opponent->setCurrentGame($gameInstance);
 
         return $gameInstance;
     }
@@ -110,7 +109,7 @@ class TicTacToeGame
 
         if (false === $this->isFinished()) {
 
-            $point = $this->getOpponent()->generateMove();
+            $point = $this->getOpponent()->generateMove($this);
 
 
             $this->currentMatrix[$point['y']][$point['x']] = $this->getOpponent()->getId();
